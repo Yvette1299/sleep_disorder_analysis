@@ -1,0 +1,11 @@
+# 虚拟环境
+venv/
+.env/
+.virtualenvs/
+
+# VS Code 设置
+.vscode/
+
+__pycache__/
+data/*.csv
+.ipynb_checkpoints/
