@@ -23,13 +23,13 @@
 
 此文件研究了基于关键特征预测睡眠质量的问题，包含了从数据预处理，到利用线性回归模型进行睡眠质量预测，再到模型评估的全过程，最终效果中R²分数为0.89，表明模型能解释目标变量近90%的波动，拟合效果好，预测精度较高。
 
-[../notebooks/01_sleep_quality.ipynb](../sleep_disorder/notebooks/01_sleep_quality.ipynb)
+[../notebooks/01_sleep_quality.ipynb](https://github.com/Yvette1299/sleep_disorder_analysis/blob/main/notebooks/01_sleep_quality.ipynb)
 
 **02_sleep_disorder_type.ipynb**
 
 此文件研究了基于多维特征预测睡眠障碍类型的问题，包含了对数据进行独热编码、标准化处理等操作，以及决策树模型的建立，以及随后的超参数调优的全过程。调优后的模型在测试集上取得了94.67%的准确率。在后续对具体的特征重要性分析中，我们发现血压的舒张压、BMI和压力水平与睡眠障碍类型有着较为紧密的关系，这也对睡眠障碍的预防和诊断提供了方向。
 
-[../notebooks/02_sleep_disorder_type.ipynb](../sleep_disorder/notebooks/02_sleep_disorder_type.ipynb)
+[../notebooks/02_sleep_disorder_type.ipynb](https://github.com/Yvette1299/sleep_disorder_analysis/blob/main/notebooks/02_sleep_disorder_type.ipynb)
 
 **03_occupation_and_sleep.ipynb**
 
@@ -37,4 +37,4 @@
 
 文件包含数据预处理、绘制并分析特征关系热力图，并采用肘部法则和轮廓系数来确定最佳K值以进行K-means聚类，并根据聚类结果进行可视化分析，将研究对象（不同职业人群）划分为6个具有显著特征的聚类群体，通过数据探讨了了不同职业与健康的关联、生活方式对BMI的影响，并基于分析结果给出了维持健康的小建议。
 
-[../notebooks/3_occupation_and_sleep.ipynb](../sleep_disorder/notebooks/3_occupation_and_sleep.ipynb)
+[../notebooks/3_occupation_and_sleep.ipynb](https://github.com/Yvette1299/sleep_disorder_analysis/blob/main/notebooks/03_occupation_and_sleep.ipynb)
